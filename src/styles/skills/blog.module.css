@@ -1,0 +1,202 @@
+@media only screen and (max-width: 1000px) {
+  .imagesStyles {
+    height: 200.15px;
+    width: 100%;
+  }
+  .imageNewStyle {
+  transition: transform 0.3s ease-in-out; /* Apply smooth transition to the transform style */
+}
+  .imageNewStyle1:hover{
+    transform: scale(1.05);
+ }
+ .imageNewStyle1 {
+  transition: transform 0.3s ease-in-out; /* Apply smooth transition to the transform style */
+}
+  .imageNewStyle:hover{
+     transform: scale(1.05);
+  }
+  .imageDiv {
+    width: 90%;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+   .firstPageBtn{
+     margin: 5px;
+    
+  }
+  .category {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: Roboto;
+
+    background-color: #025BB2;
+
+    margin-top: 5%;
+    padding: 2%;
+    text-align: center;
+    color: white;
+  }
+
+  .boxHeading {
+    padding-top: 1%;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .dateDiv {
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .paraP {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 3%;
+    font-size: 16px;
+
+    line-height: 26px;
+  }
+  .mainTop {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .imageBox {
+    display: none;
+  }
+    .pageButtonStyle{
+       display: flex;
+          flex-wrap: wrap;
+         width: 90%;
+        
+      
+    margin-bottom: 40px;
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+  }
+}
+@media only screen and (min-width: 1001px) {
+   .imageNewStyle:hover{
+    transform: scale(1.05);
+ }
+ .imageNewStyle {
+  transition: transform 0.3s ease-in-out; /* Apply smooth transition to the transform style */
+}
+  .imageNewStyle1:hover{
+    transform: scale(1.05);
+ }
+ .imageNewStyle1 {
+  transition: transform 0.3s ease-in-out; /* Apply smooth transition to the transform style */
+}
+  .category {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    padding:2%;
+
+    background-color:  #025BB2;
+
+    width:70%;
+    text-align: left;
+    color: white;
+  }
+
+  .boxHeading {
+    padding-top: 1%;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .dateDiv {
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .paraP {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 3%;
+    font-size: 16px;
+
+    line-height: 26px;
+  }
+  .mainTop {
+    width: 95%;
+    display: flex;
+  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .imageBox {
+     
+    display: flex;
+    width: 90%;
+    margin-top: 2%;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    
+  
+  
+  }
+  
+  .imageDiv {
+    width: 90%;
+   
+    margin-bottom: 20px;
+    display: flex;
+
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+    .imagesStyles {
+    height: 144.15px;
+    width:313px;
+  
+  }
+  
+  .contentDiv{
+
+    
+    width:50%;
+    padding-left:20px;
+     border-bottom: 1px solid black;
+  }
+  .pageButtonStyle{
+       display: flex;
+   
+       width:80%;
+          flex-wrap: wrap;
+          justify-content: flex-start;
+        margin-bottom: 40px;
+        margin-top: 30px;
+        
+  }
+  .firstPageBtn{
+     margin: 5px;
+    margin-left: 25%;
+  }
+  .topBigImg:hover{
+
+  transform: scale(1.05);
+  cursor: pointer;
+
+  }
+  
+}

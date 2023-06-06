@@ -1,0 +1,249 @@
+@media only screen and (max-width: 1000px) {
+  .mainDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .headBlog {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .lineDiv {
+    border-bottom: 1px solid black;
+    width: 100%;
+  }
+  .firstPart {
+    display: flex;
+
+    width: 90%;
+    padding-bottom: 2%;
+
+    justify-content: space-between;
+    align-items: center;
+  }
+  .firstPara {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .firstButton {
+    width: 28.8px;
+    height: 27.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f47c7c;
+    border: none;
+  }
+
+  .secondPara {
+    width: 90%;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 3%;
+    line-height: 25px;
+  }
+  .mainBlogHome {
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .dateStyle {
+    width: 90%;
+
+    margin: 0px;
+
+    padding: 0px;
+    display: flex;
+    align-items: center;
+  }
+  .thumbnailImg {
+    width: 90%;
+    margin-top: 5%;
+     height:250px;
+  }
+  .blogHome {
+    width: 90%;
+
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+
+    color: #025BB2
+  }
+  .datePara {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.856px;
+  }
+  .blogHomeP {
+    font-family: "Roboto";
+    font-style: normal;
+    padding: 0px;
+    margin: 0px;
+
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    font-size: 18.4023px;
+    line-height: 22px;
+  }
+  .secondDiv {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1001px) {
+  .upperDiv {
+    display: flex;
+  }
+  .secondDivH{
+    font-family: 'Roboto';
+    color: black;
+  }
+  .dateDiv{
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .secondDiv {
+ 
+  
+    width: 35%;
+background: #FFFFFF;
+ 
+    display: flex;
+    flex-direction: column;
+   margin: 2%;
+   height: fit-content;
+    padding-top:1%;
+    padding-bottom: 1%;
+    justify-content: center;
+  }
+  .secondDiv > p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 21px;
+  }
+  .mainDiv {
+    width: 65%;
+
+    display: flex;
+    margin-left: 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .headBlog {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .firstPart {
+    display: none;
+  }
+  .firstPara {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .firstButton {
+    width: 28.8px;
+    height: 27.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f47c7c;
+    border: none;
+  }
+
+  .secondPara {
+    width: 90%;
+    font-family: "Roboto";
+    font-style: normal;
+
+    display: flex;
+    margin: auto;
+    text-align: left;
+
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 3%;
+    line-height: 25px;
+  }
+  .mainBlogHome {
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .dateStyle {
+    width: 90%;
+
+    margin: 0px;
+
+    padding: 0px;
+    display: flex;
+    align-items: center;
+  }
+  .thumbnailImg {
+   width: 90%;
+    height:423px;
+    margin: auto;
+
+    margin-top: 5%;
+  }
+  .blogHome {
+    width: 90%;
+
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+
+    color: #025BB2;
+  }
+  .datePara {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.856px;
+  }
+  .blogHomeP {
+    font-family: "Roboto";
+    font-style: normal;
+    padding: 0px;
+    margin: 0px;
+
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    font-size: 18.4023px;
+    line-height: 22px;
+  }
+}

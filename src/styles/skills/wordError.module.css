@@ -1,0 +1,381 @@
+@media only screen and (max-width: 1001px) {
+  .topMainFirst{
+    width: 100%;
+     display:flex; flex-direction:column;
+  }
+  .mainDiv {
+  width: 85%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+.mainSecondDiv{
+  width:100%;
+  padding: 5%;
+  text-align: center;
+  background: #FAFBFC;
+box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+}
+
+.AlphabetBox {
+  width: 100%;
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.textField {
+  border: 1px solid black;
+  font-size: 65px;
+  width: 100%;
+}
+.firstDivbtn {
+  width: 25%;
+  height: 60px;
+  background-color: blue;
+  color: white;
+  border-radius: none;
+}
+.AlphabetFirstDiv {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+}
+
+.AlphabetP {
+  padding: 0px;
+  margin: 0px;
+  color: #025bb2;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27.187px;
+}
+.AlphabetSecDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.AlphabetSecDivChild {
+  width: 100%;
+
+  display: flex;
+
+
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.mapP {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  border: 0.485482px solid #393b3f;
+  margin: 0px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.secondmainDiv {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+.secondMainDivChild {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.secondMainP {
+  width: 100%;
+  padding: 3%;
+}
+.wordBox {
+  width: 100%;
+  padding-top: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+.appCallout {
+  width: 100%;
+  height: 200px;
+ 
+  display: flex;
+  padding-top: 0px;
+  margin-top: 30px;
+}
+.appCalloutFirstDiv {
+  height: 100%;
+  width: 10px;
+  background-color: #107be5;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+}
+
+.appCalloutSecondDiv {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-top-right-radius: 10px;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+  border-bottom-right-radius: 10px;
+}
+
+.appCalloutSecondDivChild1 {
+  display: flex;
+  width: 90%;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.appCalloutSecondDivChild2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  justify-content: center;
+}
+
+.appCalloutSecondDivP1{
+    font-style: normal;
+                          font-weight: 700;
+                          font-size: 15px;
+}
+.appCalloutSecondDivP2{
+      font-style: normal;
+                          font-weight: 600;
+                          font-size: 24px;
+}
+
+.appCalloutbtn{
+      display: flex;
+                      justify-content: flex-start;
+                      width: 90%;
+                      margin-bottom: 30px;
+                      margin-top: 20px;
+}
+}
+
+
+
+@media only screen and (min-width: 1001px) {
+    .topMainFirst{
+    width: 65%;
+     display:flex; flex-direction:column;
+  }
+  .mainDiv {
+  width: 85%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+.AlphabetBox {
+  width: 100%;
+  margin-top: 80px;
+  border: 1px solid #a4a8ae;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.textField {
+  border: 1px solid black;
+  font-size: 65px;
+  width: 100%;
+}
+.firstDivbtn {
+  width: 15%;
+  height: 60px;
+  background-color: blue;
+  color: white;
+  border-radius: none;
+}
+.AlphabetFirstDiv {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+  justify-content: center;
+}
+
+.AlphabetP {
+  padding: 0px;
+  margin: 0px;
+  color: #025bb2;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27.187px;
+}
+.AlphabetSecDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.AlphabetSecDivChild {
+  width: 85%;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.mapP {
+  width: 105px;
+  height: 105px;
+  cursor: pointer;
+  display: flex;
+  border: 0.3px solid #393b3f;
+  
+  margin: 0px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 43.6934px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+
+.secondmainDiv {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 5%;
+}
+.secondMainDivChild {
+  width: 100%;
+  box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.15);
+
+  display: flex;
+  justify-content: center;
+  background-color: #f2f3f5;
+}
+.mainSecondDiv{
+  width:100%;
+  height: 200px;
+    padding: 5%;
+  background: #FAFBFC;
+box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+}
+
+.secondMainP {
+  width: 100%;
+
+  height:600px;
+  padding: 3%;
+}
+.wordBox {
+  width: 100%;
+
+  padding-top: 3%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 90%;
+  justify-content: space-between;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+.appCallout {
+  position: relative;
+  width: 33%;
+  height: 200px;
+  display: flex;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.appCalloutFirstDiv {
+  height: 100%;
+  width: 10px;
+  background-color: #107be5;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+}
+
+.appCalloutSecondDiv {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-top-right-radius: 10px;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+  border-bottom-right-radius: 10px;
+}
+
+.appCalloutSecondDivChild1 {
+  display: flex;
+  width: 90%;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.appCalloutSecondDivChild2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  justify-content: center;
+}
+
+.appCalloutSecondDivP1{
+    font-style: normal;
+                          font-weight: 700;
+                          font-size: 15px;
+}
+.appCalloutSecondDivP2{
+      font-style: normal;
+                          font-weight: 600;
+                          font-size: 24px;
+}
+
+.appCalloutbtn{
+      display: flex;
+                      justify-content: flex-start;
+                      width: 90%;
+                      margin-bottom: 30px;
+                      margin-top: 20px;
+}
+}

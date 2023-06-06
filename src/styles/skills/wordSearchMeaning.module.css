@@ -1,0 +1,115 @@
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.firstChildDiv {
+  display: flex;
+  border-bottom: 1px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.btnDiv {
+  color: white;
+  border-radius: 120px;
+  height: 60px;
+  width: 60px;
+  background-color: #107be5;
+}
+.secondChildDiv {
+  border: 1px solid black;
+  height: 53px;
+  padding-left: 5%;
+  cursor: pointer;
+  padding-right: 5%;
+  margin-right: 3%;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thirdChildDiv {
+  border: 1px solid black;
+  height: fit-content;
+  cursor: pointer;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fourthChildDiv {
+
+  width: fit-content;
+
+  margin-right: 10px;
+
+  margin-bottom: 15px;
+  border: 2px solid #9fcaf5;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+}
+.SearchPara{
+  font-family: 'Inter';
+font-style: italic;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+
+display: flex;
+align-items: center;
+
+/* Ink/Ink 40 */
+
+color: #60636A;
+}
+.SearchParaEx{
+  font-family: 'Inter';
+font-style: italic;
+font-weight: 600;
+font-size: 16px;
+line-height: 28px;
+
+display: flex;
+align-items: center;
+
+/* Ink/Ink 40 */
+
+color: #60636A;
+}
+.meaningPara{
+  font-style: normal;
+font-weight: 500;
+font-size: 18px;
+margin-left: 3%;
+}
+.meaningPara2nd{
+  font-style: normal;
+font-weight: 500;
+font-size: 18px;
+ 
+}
+
+.headPara{
+ 
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #36B368;
+}
+.headOpposite{
+  font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color:  #EA5230;;
+}
