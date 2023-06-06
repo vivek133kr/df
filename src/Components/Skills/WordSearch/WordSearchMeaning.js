@@ -224,7 +224,7 @@ function WordSearchMeaning({ word }) {
                     >
                       {items.flatMap((item) =>
                         item.similar_words.map((ite) => (
-                          <div
+                               <div
                             key={ite.word}
                             className={styles["fourthChildDiv"]}
                             style={{
@@ -246,7 +246,7 @@ function WordSearchMeaning({ word }) {
                                 width: "100%",
                                 color: "black",
                               }}
-                              onClick={() => {
+                              onClick={(e) => {
                                 if (ite.has_meaning) {
                                   const hyphenatedWord = ite.word.includes(" ")
                                     ? `${ite.word.split(" ").join("-")}`
@@ -259,13 +259,15 @@ function WordSearchMeaning({ word }) {
                                     "customHyphenated",
                                     customHyphenated
                                   );
-                                
+
                                   hyphenatedWords.current = hyphenatedWord;
+                                } else {
+                                  e.preventDefault(); // Prevent the default anchor click behavior
                                 }
                               }}
-                              href={`/courses/english/dictionary/english-hindi/${
+                              href={ite.has_meaning ? `/courses/english/dictionary/english-hindi/${
                                 ite.word.toLowerCase()
-                              }/word-meaning-in-hindi`}
+                              }/word-meaning-in-hindi`:""}
                             >
                               {ite.word.charAt(0).toUpperCase() +
                                 ite.word.slice(1)}
