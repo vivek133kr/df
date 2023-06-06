@@ -1,0 +1,146 @@
+@media only screen and (max-width: 1000px) {
+.headForm{
+    width:90%;
+     margin-bottom: 20px;
+    background-color: #F4F4F4;
+}
+.formTitle{
+    background-color: #025BB2;
+    color:white;
+    padding: 8%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+input.error {
+  border-color: red;
+}
+.formDesign{
+   
+    width:90%;
+   
+}
+.lastP{
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+
+font-size: 13px;
+color: #696A6F;
+line-height: 14px;
+text-align: center;
+}
+.labelStyle{
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18.3525px;
+line-height: 23px;
+color: #696A6F;
+
+}
+
+.inputStyle{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8.20143px 16.4029px;
+gap: 16.4px;
+
+width: 100%;
+height: 41.4px;
+
+background: #FFFFFF;
+
+
+}
+.input-feedback {
+  color: red;
+  margin-top: .25rem;
+}
+}
+
+@media only screen and (min-width: 1001px)  {
+.headForm{
+    width:50%;
+    margin-top: 5%;
+     margin-bottom: 2%;
+    background-color: #F4F4F4;
+}
+.formTitle{
+    background-color: #025BB2;
+    color:white;
+    padding: 8%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+input.error {
+  border-color: red;
+}
+.formDesign{
+   
+    width:90%;
+   
+}
+.lastP{
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+
+font-size: 13px;
+color: #696A6F;
+line-height: 14px;
+text-align: center;
+}
+.labelStyle{
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18.3525px;
+line-height: 23px;
+color: #696A6F;
+
+}
+
+.inputStyle{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8.20143px 16.4029px;
+gap: 16.4px;
+
+width: 100%;
+height: 41.4px;
+
+background: #FFFFFF;
+
+
+}
+.input-feedback {
+  color: red;
+  margin-top: .25rem;
+}
+}
