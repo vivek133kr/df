@@ -32,7 +32,7 @@ function Blog({ data, pageTrack, publishData }) {
       router.push(`/courses/english?page=${currentPage.current}`);
     }
   };
-
+console.log("df")
   function goToPage(page) {
     currentPage.current = page;
     setCurrentPageState(page);
